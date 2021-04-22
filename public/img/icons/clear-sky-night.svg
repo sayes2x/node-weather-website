@@ -1,0 +1,33 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="300" fill="white"/>
+<rect width="400" height="300" fill="url(#paint0_radial)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M264.845 203.864C263.241 203.954 261.626 204 260 204C213.056 204 175 165.944 175 119C175 100.371 180.993 83.1424 191.155 69.1357C146.465 71.6469 111 108.682 111 154C111 200.944 149.056 239 196 239C224.316 239 249.397 225.154 264.845 203.864Z" fill="url(#paint1_radial)"/>
+<ellipse cx="143.292" cy="112.522" rx="5.31718" ry="11.5" transform="rotate(16.0684 143.292 112.522)" fill="#AABEC1"/>
+<ellipse cx="143.292" cy="112.522" rx="5.31718" ry="11.5" transform="rotate(16.0684 143.292 112.522)" fill="#AABEC1"/>
+<ellipse cx="143.292" cy="112.522" rx="5.31718" ry="11.5" transform="rotate(16.0684 143.292 112.522)" fill="#AABEC1"/>
+<ellipse cx="123" cy="141.198" rx="6.89639" ry="15.3774" transform="rotate(9.02742 123 141.198)" fill="#AABEC1"/>
+<ellipse cx="123" cy="141.198" rx="6.89639" ry="15.3774" transform="rotate(9.02742 123 141.198)" fill="#AABEC1"/>
+<ellipse cx="123" cy="141.198" rx="6.89639" ry="15.3774" transform="rotate(9.02742 123 141.198)" fill="#AABEC1"/>
+<ellipse cx="172.236" cy="210.45" rx="8.56734" ry="18.1605" transform="rotate(-54.5609 172.236 210.45)" fill="#AABEC1"/>
+<ellipse cx="172.236" cy="210.45" rx="8.56734" ry="18.1605" transform="rotate(-54.5609 172.236 210.45)" fill="#AABEC1"/>
+<ellipse cx="172.236" cy="210.45" rx="8.56734" ry="18.1605" transform="rotate(-54.5609 172.236 210.45)" fill="#AABEC1"/>
+<ellipse cx="160.213" cy="171.401" rx="8.08095" ry="11.9278" transform="rotate(-32.3849 160.213 171.401)" fill="#AFCBCF"/>
+<ellipse cx="209.404" cy="210.5" rx="8.08095" ry="11.9278" transform="rotate(-73.793 209.404 210.5)" fill="#AFCBCF"/>
+<ellipse cx="162.251" cy="133.462" rx="8.50846" ry="11.204" transform="rotate(-9.56056 162.251 133.462)" fill="#AFCBCF"/>
+<ellipse cx="132.996" cy="189.244" rx="6.7815" ry="17.1813" transform="rotate(-32.7378 132.996 189.244)" fill="#AABEC1"/>
+<ellipse cx="132.996" cy="189.244" rx="6.7815" ry="17.1813" transform="rotate(-32.7378 132.996 189.244)" fill="#AABEC1"/>
+<ellipse cx="132.996" cy="189.244" rx="6.7815" ry="17.1813" transform="rotate(-32.7378 132.996 189.244)" fill="#AABEC1"/>
+<path d="M230 61L233.241 69.7589L242 73L233.241 76.2411L230 85L226.759 76.2411L218 73L226.759 69.7589L230 61Z" fill="#AABEC1"/>
+<path d="M277 92L280.241 100.759L289 104L280.241 107.241L277 116L273.759 107.241L265 104L273.759 100.759L277 92Z" fill="#AABEC1"/>
+<path d="M239.5 100L243.956 112.044L256 116.5L243.956 120.956L239.5 133L235.044 120.956L223 116.5L235.044 112.044L239.5 100Z" fill="#AABEC1"/>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(200 150) rotate(180) scale(342.5 456.667)">
+<stop stop-color="#090909"/>
+<stop offset="1" stop-opacity="0.46"/>
+</radialGradient>
+<radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(254.5 128) rotate(153.866) scale(148.703)">
+<stop stop-color="#A9C2C5" stop-opacity="0"/>
+<stop offset="1" stop-color="#A9C2C5"/>
+</radialGradient>
+</defs>
+</svg>

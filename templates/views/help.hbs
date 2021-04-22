@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="icon" href="/img/icons/sun.png">
+
+</head>
+
+<body>
+  <div id="background"></div>
+  <div class="main-content">
+    {{>header}}
+    <div class="flexbox">
+      <div class="message">
+        <p>Use this site to get your weather!</p>
+        <p>If you allow this site to access your browser's geolocation data, your local weather will load when you open
+          this
+          site.</p>
+        <p>Enter an address, city, country, or some other location information to get the weather for anywhere in the
+          world.
+          Feel free to experiment and see what you get.</p>
+      </div>
+    </div>
+  </div>
+  {{>footer}}
+  <script type="module" src="/js/background.js"></script>
+</body>
+
+</html>

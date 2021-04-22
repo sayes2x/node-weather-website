@@ -1,0 +1,33 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect width="400" height="300" fill="white"/>
+<rect x="0.5" width="400" height="300" fill="url(#paint0_radial)"/>
+<g filter="url(#filter0_d)">
+<path d="M348.539 162.855C351.436 153.755 353 144.06 353 134C353 81.5329 310.467 39 258 39C232.211 39 208.822 49.2759 191.705 65.9565C182.636 53.2696 167.784 45 151 45C123.386 45 101 67.3858 101 95C101 97.4534 101.177 99.8655 101.518 102.224C99.5315 102.076 97.5246 102 95.5 102C51.5934 102 16 137.593 16 181.5C16 225.407 51.5934 261 95.5 261C96.1526 261 96.8034 260.992 97.4522 260.977C97.9662 260.992 98.4822 261 99 261H335C362.614 261 385 238.614 385 211C385 188.078 369.575 168.758 348.539 162.855Z" fill="url(#paint1_linear)"/>
+<path d="M346.633 162.248L346.005 164.221L347.998 164.78C368.194 170.448 383 188.997 383 211C383 237.51 361.51 259 335 259H99C98.5025 259 98.0068 258.992 97.513 258.977L97.4585 258.976L97.404 258.977C96.7712 258.992 96.1366 259 95.5 259C52.6979 259 18 224.302 18 181.5C18 138.698 52.6979 104 95.5 104C97.4747 104 99.4319 104.074 101.369 104.219L103.854 104.405L103.497 101.938C103.17 99.6737 103 97.3573 103 95C103 68.4903 124.49 47 151 47C167.111 47 181.368 54.9353 190.077 67.1195L191.432 69.0145L193.1 67.3888C209.86 51.0575 232.753 41 258 41C309.362 41 351 82.6375 351 134C351 143.852 349.469 153.342 346.633 162.248Z" stroke="black" stroke-width="4"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" x="12" y="39" width="377" height="230" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(200.5 150) rotate(180) scale(342.5 456.667)">
+<stop stop-color="#090909"/>
+<stop offset="1" stop-opacity="0.46"/>
+</radialGradient>
+<linearGradient id="paint1_linear" x1="200" y1="54" x2="200.5" y2="261" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="0.758907" stop-color="#E6E1E1"/>
+<stop offset="1" stop-color="#333333"/>
+</linearGradient>
+<clipPath id="clip0">
+<rect width="400" height="300" fill="white"/>
+</clipPath>
+</defs>
+</svg>

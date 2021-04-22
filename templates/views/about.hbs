@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="icon" href="/img/icons/sun.png">
+
+</head>
+
+<body>
+  <div id="background"></div>
+  <div class="main-content">
+    {{>header}}
+    <div class="flexbox">
+      <div class="message">
+        <p>This is a fullstack app that uses node and express on the back end.</p>
+        <p>Location data is retrieved using the <a href="https://www.mapbox.com/">mapbox</a> API, or your web browsers
+          gelocation API.</p>
+        <p>Weather forecast data is retrieved using the <a href="https://openweathermap.org/api">OpenWeather</a> API.
+        </p>
+      </div>
+    </div>
+  </div>
+  {{>footer}}
+  <script type="module" src="/js/background.js"></script>
+</body>
+
+</html>
