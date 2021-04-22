@@ -26,7 +26,7 @@ const useGeolocation = () => {
 // success function
   const success = async position => {
     displayNotification('Loading weather data...', 600)
-    const response = await fetch(`http://localhost:3000/geolocation?latitude=${position.coords.latitude}&longitude=${position.coords.longitude}`)
+    const response = await fetch(`/geolocation?latitude=${position.coords.latitude}&longitude=${position.coords.longitude}`)
     const { forecast } =  await response.json();
 
     // error code
@@ -61,7 +61,7 @@ const useSearch = () => {
 // get weather when location is entered in weatherForm
 const fetchWeather = async location => {
   displayNotification('Loading weather data...', 600)
-  const response = await fetch(`http://localhost:3000/weather?address=${location}`)
+  const response = await fetch(`/weather?address=${location}`)
   const data =  await response.json()
 
   // error code
