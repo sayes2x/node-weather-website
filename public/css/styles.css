@@ -31,6 +31,7 @@ body {
 
 a {
   text-decoration: none;
+  color: var(--accent);
 }
 a:visited {
   color: var(--accent);
@@ -83,12 +84,16 @@ nav {
   justify-content: center;
 }
 
-nav a {
+.pages {
   color: var(--text);
   font-weight: bold;
   margin-bottom: 20px;
   margin-right: 16px;
   text-decoration: none;
+}
+
+.pages:visited {
+  color: var(--text);
 }
 
 /* Form */
@@ -135,6 +140,11 @@ button:hover {
   margin: 0 clamp(5vw, 8vw, 10vw);
 
   transition: opacity 200ms;
+}
+
+h2 {
+  color: var(--accent);
+  margin: 0;
 }
 
 /* Card */
@@ -190,10 +200,6 @@ figcaption {
   gap: 5px;
   justify-items: stretch;
   align-items: stretch;
-
-  /* justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap; */
 }
 
 .forecast div {
@@ -302,6 +308,7 @@ footer {
   border-radius: 10px;
   color: var(--text);
   padding: 25px 50px;
+  max-width: 700px;
 
   display: flex;
   flex-direction: column;
