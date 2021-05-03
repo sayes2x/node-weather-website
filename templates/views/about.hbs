@@ -18,11 +18,37 @@
     {{>header}}
     <div class="flexbox">
       <div class="message">
-        <p>This is a fullstack app that uses node and express on the back end.</p>
-        <p>Location data is retrieved using the <a href="https://www.mapbox.com/">mapbox</a> API, or your web browsers
-          gelocation API.</p>
-        <p>Weather forecast data is retrieved using the <a href="https://openweathermap.org/api">OpenWeather</a> API.
+        <p>This is a full stack website. The back end is written using <a href="https://nodejs.org" target="_blank"
+            rel="noopener">Node.js</a>. It uses <a href="http://expressjs.com" target="_blank"
+            rel="noopener">Express</a> to set up a web server and routes, and <a
+            href="https://www.npmjs.com/package/hbs" target="_blank" rel="noopener">handlebars (hbs)</a> for templating.
         </p>
+        <p>Two APIs are used by this website to get weather information. <a href="https://www.mapbox.com"
+            target="_blank" rel="noopener">Mapbox</a> is used to find the latitude and longitude of a location based on
+          user input. <a href="https://openweathermap.org/api" target="_blank" rel="noopener">OpenWeatherMap</a> is used
+          to get weather data. <a href="https://github.com/request/request#readme" target="_blank"
+            rel="noopener">Request</a> is used to make the API calls.</p>
+        <p>The front end of this website uses the <a
+            href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" target="_blank"
+            rel="noopener">Model-View-Controller (MVC)</a> software design pattern for the user interface. API calls to
+          the back end are made using fetch and the async/await pattern.</p>
+        <p>If the user enables browser geolocation, this website will use the <a
+            href="https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API" target="_blank"
+            rel="noopener">browser geolocation api</a> to get the latitude and longitude of the user. This is then used
+          to look up the current weather conditions. Weather data can also be loaded using the search box. This website
+          will display
+          weather data for as many locations as the user requests. Individual locations can be removed from the display
+          using the close button.</p>
+        <p>This website uses <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage"
+            target="_blank" rel="noopener">browser session storage</a> to save weather data. This enables weather data
+          to persist if a user visits the 'about' or 'help' page of this website, or even if they refresh the page.
+          Session
+          storage does not persist when the website is closed.</p>
+        <p>The background image that is displayed on this website will correspond to the weather conditions of the first
+          location loaded in the current session. I designed all the icons on this website.</p>
+        <p>For more information about me, please visit my portfolio at <a href="http://www.scottaprice.com"
+            target="_blank" rel="noopener">www.scottaprice.com</a>. You can also find me on <a
+            href="https://www.linkedin.com/in/scottalanprice/" target="_blank" rel="noopener">LinkedIn</a></p>
       </div>
     </div>
   </div>

@@ -33,7 +33,7 @@ a {
   text-decoration: none;
 }
 a:visited {
-  color: var(--text);
+  color: var(--accent);
 }
 
 /* Background */
